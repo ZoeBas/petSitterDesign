@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PetSitter</title>
+  <link  rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav id="navBar" class="navbar-white">
+  <a href="index.html">
+  <img src="images/logo-red.png" class="logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Popular Places</a></li>
+    <li><a href="#">Travel Outside</a></li>
+    <li><a href="listing.html">Online Packages</a></li>
+  </ul>
+  <a href="#" class="register-btn"> Sign up</a>
+  <i class="fa fa-bars" onclick="togglebtn()"></i>
+</nav>
+<div class="house-details">
+  <div class="house-title">
+    <h1>Wenge House</h1>
+    <div class="row">
+      <div>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+        <span>245 Reviews</span>
+      </div>
+      <div>
+        <p>Location: Athens</p>
+      </div>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="gallery-img-1"><img src="images/house-1.png" ></div>
+    <div><img src="images/house-2.png" ></div>
+    <div><img src="images/house-3.png" ></div>
+    <div><img src="images/house-4.png" ></div>
+    <div><img src="images/house-5.png" ></div>
+  </div>
+  <div class="small-details">
+    <h2>Apartment  hosted by Brandon</h2>
+    <p>2 pets &nbsp; &nbsp; 2 dog beds &nbsp; &nbsp; has 1 dog</p>
+    <h4>100&#8364 / day</h4>
+  </div>
+  <hr class="line">
+  <form class="check-form">
+    <div>
+      <label>Check-in</label>
+      <input type="text" placeholder="Add Date">
+    </div>
+    <div>
+      <label>Check-out</label>
+      <input type="text" placeholder="Add Date">
+    </div>
+    <div class="pet-field">
+      <label>Pets</label>
+      <input type="text" placeholder="2 pets">
+    </div>
+    <button type="submit">Check Availability</button>
+  </form>
+
+  <ul class="details-list">
+    <li><i class="fa fa-calendar-times-o" aria-hidden="true"></i>One booking at a time
+      <span>Your pets will have the apartment to themselves. One booking per stay.</span>
+    </li>
+    <li><i class="fa fa-paw" aria-hidden="true"></i>Great Care
+      <span>100% satisfaction of pet care by owners.</span>
+    </li>
+    <li><i class="fa fa-paint-brush" aria-hidden="true"></i>Perfect Home for Pets
+      <span>90% of recent guests gave the home a 5 star rating.</span>
+    </li>
+    <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Great Check-in Experience
+      <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+    </li>
+  </ul>
+
+  <hr class="line">
+
+  <p class="home-desc">We have a German Shepherd who loves having play mates.
+    He plays with all dogs, small and large, as long as they are social.
+    He has never been aggressive.
+    We are nature people and go into the woods or open field/ off-leash area for
+    a long time every afternoon, for walks and play time.
+    We enjoy it as long as the dogs are having fun.
+    Please provide your own food and possibly treats.
+    Feeding bowls, long leash, toys and cuddly toys, dog cushions/mats,
+    medium bench, shepherd sized harness are all in our house.
+  </p>
+  <hr class="line">
+
+  <div class="map">
+    <h3>Location on map</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100621.22936651956!2d23.6682998
+    71057332!3d37.99081643304987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1
+    4a1bd1f067043f1%3A0x2736354576668ddd!2sAthens!5e0!3m2!1sen!2sgr!4v1675958868518!5m2!1sen!2sgr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <b>Athens, Greece</b>
+    <p>It's like a home away from home.</p>
+  </div>
+
+  <hr class="line">
+
+  <div class="host">
+    <img src="images/host.png">
+    <div>
+      <h2>Hosted by Brandon</h2>
+      <p><span>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </span>&nbsp; &nbsp; 28 reviews &nbsp; &nbsp; Response rate 100%
+        &nbsp; &nbsp; Response time: within an hour</p>
+    </div>
+  </div>
+  <a href="#" class="contact-host">Contact Host</a>
+</div>
+<div class="container">
+  <div class="footer">
+    <a href="https://instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://facebook.com/" class="fa fa-facebook"></a>
+    <hr>
+    <p>Copyright © 2022 PetSitter</p>
+  </div>
+</div>
+
+<script>
+  var navBar = document.getElementById("navBar");
+  function togglebtn(){
+    navBar.classList.toggle("hidemenu");
+  }
+</script>
+
+</body>
+</html>
