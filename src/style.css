@@ -25,7 +25,7 @@ nav{
 }
 
 .logo{
-  width: 140px;
+  width: 160px;
   cursor: pointer;
 }
 
@@ -123,6 +123,10 @@ nav{
 .exclusives div img{
   width: 100%;
   border-radius: 10px;
+}
+.exclusives div a{
+  color: #000;
+  text-decoration: none;
 }
 /*
 .exclusives div{
@@ -468,6 +472,10 @@ nav.navbar-white .fa-bars{
   font-size: 18px;
   margin: 10px 1px;
 }
+.house-info h3 a{
+  color: #000;
+  text-decoration: none;
+}
 .house-price{
   text-align: right;
 }
@@ -552,6 +560,10 @@ nav.navbar-white .fa-bars{
   .house-info h3{
     font-size: 18px;
   }
+  .house-info h3 a{
+    color: #000;
+    text-decoration: none;
+  }
   .house-info i{
     font-size: 16px;
   }
@@ -564,7 +576,7 @@ nav.navbar-white .fa-bars{
   }
 }
 
-/*----small screen for listing page----*/
+/*----house listing profile page----*/
 
 .house-details{
   padding: 0 12%;
@@ -768,20 +780,22 @@ map h3{
 }
 
 /*----- signup form -----*/
-/*.container{
+.sform{
   width: 100%;
   height: 100vh;
+  /*
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.3)),url(images/cats-dogs-home.jpeg);
+  */
   display: flex;
   background-position: center;
   background-size: cover;
 
-}*/
+}
 .form-box{
   width: 90%;
   max-width: 450px;
   position: absolute;
-  top: 50%;
+  top: -77px;
   left: 50%;
   transform: translate(-50%, 50%);
   background: #fff;
@@ -856,4 +870,22 @@ form p a{
 .btn-field button.disable{
   background: #eaeaea;
   color: #555;
+}
+
+/*----- signup form for small devices -----*/
+
+@media only screen and (max-width: 700px) {
+
+  .form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: -77px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+  }
+
 }
